@@ -7,9 +7,17 @@
 <link rel='stylesheet' href='style.css'>
 <form>
 <div class='Login'>
-<input type="text" placeholder="Username" name="username" required>
-<input type="password" placeholder="Password" name ="password" required>
-<input id ='loginbutton' type = "submit" value="Log In">
+<table>
+<tr>
+<td><input type="text" placeholder="Username" name="username" required></td>
+</tr>
+<tr>
+<td><input type="password" placeholder="Password" name ="password" required></td>
+</tr>
+<tr>
+<td><input id ='loginbutton' type = "submit" value="Log In"></td>
+</tr>
+</table>
 </div>
 </form>
 </body>
