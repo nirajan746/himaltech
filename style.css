@@ -6,10 +6,14 @@ margin: 20px auto 0;
 width 298px;
 }
 
-#body-color{background-color:#6699cc;}
+#body{background-color:#6699cc;}
 
-#log{
-margin-top:150px;
-margin-bottom: 150px;
+#loginbutton{
+border-radius:10px;
+width:100px;
+height:40px;
+background:#FF00FF;
+font-weight:bold;
+font-size:20px;}
 
 }
