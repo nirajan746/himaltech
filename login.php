@@ -5,7 +5,7 @@
 </head>
 <body>
 <link rel='stylesheet' href='style.css'>
-<form>
+<form action="db_login.php" method = "POST">
 <div class='Login'>
 <table>
 <tr>
@@ -15,7 +15,7 @@
 <td><input type="password" placeholder="Password" name ="password" required></td>
 </tr>
 <tr>
-<td><input id ='loginbutton' type = "submit" value="Log In"></td>
+<td><input id ='loginbutton' type = "submit" value="Log In" </td>
 </tr>
 </table>
 </div>
