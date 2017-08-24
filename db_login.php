@@ -19,7 +19,7 @@ $password=$_POST['Password'];
 
 //Query the database for user 
 $result= mysqli_query($conn,"select * from admin where Username='$username' and Password ='$password'") 
-or die($conn,$mysqli_error());
+or die('Error');
 
 $row=mysqli_fetch_array($resutl);
 
