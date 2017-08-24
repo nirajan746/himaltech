@@ -2,12 +2,7 @@
 
 //connecting to server localhost
 
-$conn = mysqli_connect('localhost','root','');
-$dbname='login_members';
-	if (!$conn){
-	die ('No connection with the database');
-	}
-	echo 'connection successful!!';
+include ('serverconnection.php');
 
 //connecting database login_members
 
@@ -24,11 +19,12 @@ $dbname='login_members';
 $row=mysqli_fetch_array($result);
 
 if (!empty ($row['Username'])==$username && ($row['Password'])==$password){
-echo 'Login Successful'.'<br>'.'Admin:'.$row['Username'];
+//echo 'Login Successful'.'<br>'.'Admin:'.$row['Username'];
+header ("Location: signup.php");
 }
 else 
 {
-echo 'Not a admin';
+echo 'Not a admin.';
 } 
 
 ?>

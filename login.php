@@ -1,24 +1,19 @@
 <html>
-</title> </title>
+<title></title>
 <head>
+
+<link rel='stylesheet' href='style.css'>
 
 </head>
 <body>
-<link rel='stylesheet' href='style.css'>
-<form action="db_login.php" method = "POST">
-<div class='Login'>
-<table>
-<tr>
-<td><input type="text" placeholder="Username" name="username" required></td>
-</tr>
-<tr>
-<td><input type="password" placeholder="Password" name ="password" required></td>
-</tr>
-<tr>
-<td><input id ='loginbutton' type = "submit" value="Log In" </td>
-</tr>
-</table>
+<form action="db_login.php">
+<div class="login">
+    <input type="text" placeholder="Username" id="username" name ="username">  
+  <input type="password" placeholder="Password" id="password" name ="password">  
+  <a href="#" class="forgot">forgot password?</a>
+  <input type="submit" value="Sign In">
 </div>
-</form>
+<div class="shadow"></div>
+<form>
 </body>
 </html>
