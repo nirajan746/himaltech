@@ -25,7 +25,9 @@ $row=mysqli_fetch_array($resutl);
 
 if (!empty ($row['Username'])==$username && ($row['Password'])==$password){
 echo 'Login Successful'.'<br>'.'Admin:'.$row['Username'];
+}
 else 
+{
 echo 'Not a admin';
 } 
 
