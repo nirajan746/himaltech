@@ -6,7 +6,7 @@
 
 </head>
 <body>
-<form action="db_login.php">
+<form action="db_login.php" method = "POST">
 <div class="login">
     <input type="text" placeholder="Username" id="username" name ="username" required>  
   <input type="password" placeholder="Password" id="password" name ="password" required>  

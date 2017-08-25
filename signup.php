@@ -2,6 +2,9 @@
 <title>
 </title>
 <head>
+<style>
+
+</style>
 </head>
 
 <body>
@@ -25,7 +28,7 @@
 	               	</div>
 	            </div> 
 				<div class="main-login main-center">
-					<form class="form-horizontal" method="post" action="add.php">
+					<form action = "add.php" class = "form-horizontal" method = "POST" >
 						
 						<div class="form-group">
 							<label for="name" class="cols-sm-2 control-label">Your Name</label>
@@ -78,7 +81,7 @@
 						</div>
 
 						<div class="form-group ">
-							<button type="button" class="btn btn-primary btn-lg btn-block login-button">Register</button>
+							<input id=submit type="submit" value="Submit" class="btn btn-primary btn-lg btn-block login-button" style="font-size:7pt;color:white;background-color:green;border:2px solid #336600;padding:3px">
 						</div>
 						<div class="login-register">
 				            <a href="login.php">Login</a>
